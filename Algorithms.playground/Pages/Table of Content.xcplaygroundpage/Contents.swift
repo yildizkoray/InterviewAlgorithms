@@ -6,5 +6,6 @@
  3. [FizzBuzz](FizzBuzz)
  4. [Fibonacci](Fibonacci)
  5. [Palindrome](Palindrome)
- 6. [SwapTwoNumber](SwapTwoNumber)
+ 6. [Swap Two Number](SwapTwoNumber)
+ 7. [Most Common Item in Array][MostCommonItem]
  */
