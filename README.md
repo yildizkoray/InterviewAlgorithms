@@ -90,4 +90,84 @@ func fizzBuzz(for number: Int) {
     }
 }
 ```
+
+## Fibonacci
+
+```swift
+// MARK - Recursive
+
+func fibonacciRecursive(for number: Int) -> Int {
+    
+    guard number > 1 else { return number}
+    return fibonacciRecursive(for: number - 1) + fibonacciRecursive(for: number - 2)
+}
+
+fibonacciRecursive(for: 7)
+
+// MARK - Iterative
+
+func fibonacciIterative(for number: Int) -> Int {
+    var first = 0
+    var second = 1
+    
+    guard number > 1 else { return number }
+    
+    for _ in 2 ... number {
+        let total = first + second
+        first = second
+        second = total
+    }
+    return second
+}
+
+fibonacciIterative(for: 7)
+```
+
+```swift
+func isPalindrome(text: String) -> Bool {
+    
+    let arrayOfText = Array(text)
+    
+    for index in 0 ..< text.count / 2 {
+        
+        if arrayOfText[index] == arrayOfText[arrayOfText.count - 1] {
+            return true
+        }
+    }
+    
+    return false
+}
+
+isPalindrome(text: "abbccbba")
+isPalindrome(text: "Koray")
+
+## Swap Two Number
+
+```swift
+var first = 27
+var second = 10
+
+print("First: \(first)")
+print("Second: \(second)")
+
+first = first + second
+first = first - second
+second = first - second
+
+print("First: \(first)")
+print("Second: \(second)")
+```
+
+## Most Common Item in Array
+
+```swift
+func mostCommonItem(in items: [String]) -> String {
+    var itemCounts: [String: Int] = [:]
+    for item in items {
+        itemCounts[item] = (itemCounts[item] ?? 0) + 1
+    }
+    return itemCounts.sorted { $0.value > $1.value }.first?.key ?? ""
+}
+mostCommonItem(in: items)
+```
  
