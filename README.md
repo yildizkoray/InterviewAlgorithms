@@ -36,4 +36,58 @@ func binarySearch(for array: [Int], key: Int) -> Int {
 
 binarySearch(for: array, key: 2)
 ```
+
+## Factorial
+
+```swift
+func factorialRecursive(for number: Int) -> Int {
+    
+    guard number != .zero else { return 1 }
+    
+    return number * factorialRecursive(for: number - 1)
+}
+
+// MARK: - Iterative
+
+func factorialIterative(for number: Int) -> Int {
+    
+    var sum = 1
+    
+    guard number != .zero else { return 1 }
+    
+    for index in 1 ... number {
+        sum = sum * index
+    }
+    
+    return sum
+}
+```
+
+## FizzBuzz
+
+```swift
+func fizzBuzz(for number: Int) {
+    
+    for index in 1 ... number {
+        
+        let fizz = index % 3 == 0
+        let buzz = index % 5 == 0
+        
+        switch (fizz, buzz) {
+            
+        case (true, true):
+            print("FizzBuzz")
+            
+        case (false, true):
+            print("Buzz")
+            
+        case (true, false):
+            print("Fizz")
+            
+        default:
+            print(index)
+        }
+    }
+}
+```
  
