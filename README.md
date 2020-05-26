@@ -140,7 +140,7 @@ func isPalindrome(text: String) -> Bool {
 
 isPalindrome(text: "abbccbba")
 isPalindrome(text: "Koray")
-
+```
 ## Swap Two Number
 
 ```swift
