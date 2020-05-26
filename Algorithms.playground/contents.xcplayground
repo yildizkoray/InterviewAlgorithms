@@ -9,5 +9,6 @@
         <page name='Palindrome'/>
         <page name='SwapTwoNumber'/>
         <page name='MostCommonItemArray'/>
+        <page name='ZigZagConversion'/>
     </pages>
 </playground>
