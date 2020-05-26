@@ -138,4 +138,78 @@ fibonacciIterative(for: 7)
 </details>
 
 
+<details>
+    <summary>Palindrome</summary>
+
+```swift
+func isPalindrome(text: String) -> Bool {
+    
+    let arrayOfText = Array(text)
+    
+    for index in 0 ..< text.count / 2 {
+        
+        if arrayOfText[index] == arrayOfText[arrayOfText.count - 1] {
+            return true
+        }
+    }
+    
+    return false
+}
+
+isPalindrome(text: "abbccbba")
+isPalindrome(text: "Koray")
+```
+</details>
+
+<details>
+    <summary>Swap Two Number</summary>
+
+```swift
+var first = 27
+var second = 10
+
+print("First: \(first)")
+print("Second: \(second)")
+
+first = first + second
+first = first - second
+second = first - second
+
+print("First: \(first)")
+print("Second: \(second)")
+```
+</details>
+
+
+<details>
+    <summary>Most Common Item in Array</summary>
+
+```swift
+func mostCommonItem(in items: [String]) -> String {
+    
+    var itemCounts: [String: Int] = [:]
+    
+    for item in items {
+        
+        itemCounts[item] = (itemCounts[item] ?? 0) + 1
+    }
+    
+    return itemCounts.sorted { $0.value > $1.value }.first?.key ?? ""
+}
+
+let items = [
+    "Koray",
+    "Ali",
+    "Ali",
+    "Umut",
+    "Umut",
+    "Koray",
+    "Ali"
+]
+
+mostCommonItem(in: items)
+```
+</details>
+
+
  
