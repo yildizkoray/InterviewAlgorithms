@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 let array = [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
@@ -32,5 +32,4 @@ func binarySearch(for array: [Int], key: Int) -> Int {
 }
 
 binarySearch(for: array, key: 2)
-
 

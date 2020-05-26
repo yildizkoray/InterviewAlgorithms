@@ -1,9 +1,9 @@
-import UIKit
+import Foundation
 
 // MARK - Recursive
 
 func fibonacciRecursive(for number: Int) -> Int {
-
+    
     guard number > 1 else { return number}
     return fibonacciRecursive(for: number - 1) + fibonacciRecursive(for: number - 2)
 }
@@ -27,4 +27,3 @@ func fibonacciIterative(for number: Int) -> Int {
 }
 
 fibonacciIterative(for: 7)
-

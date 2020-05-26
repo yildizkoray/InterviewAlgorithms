@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 var first = 27
 var second = 10
@@ -12,4 +12,3 @@ second = first - second
 
 print("First: \(first)")
 print("Second: \(second)")
-

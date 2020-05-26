@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 func fizzBuzz(for number: Int) {
     
