@@ -7,5 +7,5 @@
  4. [Fibonacci](Fibonacci)
  5. [Palindrome](Palindrome)
  6. [Swap Two Number](SwapTwoNumber)
- 7. [Most Common Item in Array][MostCommonItem]
+ 7. [Most Common Item in Array](MostCommonItemArray)
  */
