@@ -8,6 +8,7 @@
         <page name='Fibonacci'/>
         <page name='Palindrome'/>
         <page name='SwapTwoNumber'/>
+        <page name='MergeSort'/>
         <page name='MostCommonItemArray'/>
         <page name='ZigZagConversion'/>
     </pages>

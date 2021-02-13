@@ -8,4 +8,5 @@
  5. [Palindrome](Palindrome)
  6. [Swap Two Number](SwapTwoNumber)
  7. [Most Common Item in Array](MostCommonItemArray)
+ 8. [Merge Sort](MergeSort)
  */
