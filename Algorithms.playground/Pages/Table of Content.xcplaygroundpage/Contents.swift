@@ -9,4 +9,5 @@
  6. [Swap Two Number](SwapTwoNumber)
  7. [Most Common Item in Array](MostCommonItemArray)
  8. [Merge Sort](MergeSort)
+ 9. [Remove Adjacent Duplicate](RemoveAdjacentDuplicate)
  */

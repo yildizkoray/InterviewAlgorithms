@@ -11,5 +11,6 @@
         <page name='MergeSort'/>
         <page name='MostCommonItemArray'/>
         <page name='ZigZagConversion'/>
+        <page name='RemoveAdjacentDuplicate'/>
     </pages>
 </playground>
