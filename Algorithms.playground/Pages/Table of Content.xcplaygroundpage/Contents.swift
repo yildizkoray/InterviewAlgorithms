@@ -10,4 +10,5 @@
  7. [Most Common Item in Array](MostCommonItemArray)
  8. [Merge Sort](MergeSort)
  9. [Remove Adjacent Duplicate](RemoveAdjacentDuplicate)
+ 10. [Find İndex Of Min Value In Array](FindMinValueIndexInArray)
  */

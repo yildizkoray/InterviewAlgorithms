@@ -12,5 +12,6 @@
         <page name='MostCommonItemArray'/>
         <page name='ZigZagConversion'/>
         <page name='RemoveAdjacentDuplicate'/>
+        <page name='FindMinValueIndexInArray'/>
     </pages>
 </playground>
